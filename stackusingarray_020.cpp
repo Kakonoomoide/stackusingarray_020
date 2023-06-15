@@ -67,5 +67,29 @@ int main(){
         string input;
         getline(cin, input);
         char ch = (input.empty() ? '0' : input[0]);
+        switch (ch)
+        {
+        case '1': {
+            cout << "input your elemt: " << endl;
+            string element;
+            getline(cin, element);
+            s.push(element);
+            break;
+        }
+        case '2':
+            if (s.empty()) {
+                cout << "\nStack is empty. cannot pop." << endl;
+                break;
+            }
+            s.pop();
+            break;
+        case '3':
+            s.display();
+            break;
+        case '4':
+            break;
+        default:
+            break;
+        }
     }
 }
