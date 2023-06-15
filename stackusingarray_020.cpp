@@ -3,6 +3,12 @@
 
 using namespace std;
 
+class program {
+private:
+
+public:
+};
+
 int main(){
 
 }
