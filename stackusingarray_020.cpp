@@ -56,4 +56,7 @@ public:
 
 int main(){
     program s;
+    while (true){
+
+    }
 }
