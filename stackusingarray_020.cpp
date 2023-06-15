@@ -38,6 +38,10 @@ public:
         top--;
     }
 
+    bool empty() {
+        return (top == -1);
+    }
+
 
 };
 
